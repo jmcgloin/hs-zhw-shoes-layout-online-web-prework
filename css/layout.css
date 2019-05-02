@@ -24,4 +24,17 @@
 
 /* Posititoning Classes */
 
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  margin-bottom: 2%;
+}
 
+.flex-1 {
+  flex-basis: 32%;
+}
+
+.flex-2 {
+  flex-basis: 66%;
+}
